@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:id="@+id/phpTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+
+        android:text="php"
+        />
+
+
+    <EditText
+        android:id="@+id/phpE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phpTV"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="10dp"
+        android:hint=" "
+        />
+
+    <TextView
+        android:id="@+id/usd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usdE"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginEnd="10dp"
+        android:text="usd"
+        />
+    <EditText
+        android:id="@+id/usdE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phpE"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        />
+
+    <Button
+        android:id="@+id/idBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usd"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="10dp"
+        android:text="Convert"
+        />
+
+
+</RelativeLayout>
